@@ -10,6 +10,12 @@ logo: logo.png
 require(emuR)
 knitr::opts_chunk$set(echo = FALSE)
 ```
+# Introduction
+
+Workshop Files, Repository and Wiki
+[https://github.com/PhonLab/Emu_Workshop_2](https://github.com/PhonLab/Emu_Workshop_2)
+
+# Database Basics
 
 ## Opening Existing Databases
 
