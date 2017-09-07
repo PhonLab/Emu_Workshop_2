@@ -1,0 +1,441 @@
+{
+  "name": "6_MN1_N58",
+  "annotates": "6_MN1_N58.wav",
+  "sampleRate": 11000,
+  "levels": [
+    {
+      "name": "etic",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 0,
+          "sampleStart": 0,
+          "sampleDur": 8471,
+          "labels": [
+            {
+              "name": "etic",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "sampleStart": 8472,
+          "sampleDur": 1444,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "j"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sampleStart": 9917,
+          "sampleDur": 1354,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "U"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "sampleStart": 11272,
+          "sampleDur": 667,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "n"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "sampleStart": 11940,
+          "sampleDur": 2671,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "I:"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "sampleStart": 14612,
+          "sampleDur": 810,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "m"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "sampleStart": 15423,
+          "sampleDur": 1526,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "E"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "sampleStart": 16950,
+          "sampleDur": 5049,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "p"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "sampleStart": 22000,
+          "sampleDur": 1570,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "sampleStart": 23571,
+          "sampleDur": 1570,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "N"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "sampleStart": 25142,
+          "sampleDur": 1571,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "k"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "sampleStart": 26714,
+          "sampleDur": 1570,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "E"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "sampleStart": 28285,
+          "sampleDur": 1571,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "rrE"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "sampleStart": 29857,
+          "sampleDur": 1570,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "N"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "sampleStart": 31428,
+          "sampleDur": 4059,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "j"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "sampleStart": 35488,
+          "sampleDur": 2289,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "I:"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "sampleStart": 37778,
+          "sampleDur": 905,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "m"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "sampleStart": 38684,
+          "sampleDur": 954,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "E"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "sampleStart": 39639,
+          "sampleDur": 714,
+          "labels": [
+            {
+              "name": "etic",
+              "value": "n"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "sampleStart": 40354,
+          "sampleDur": 25691,
+          "labels": [
+            {
+              "name": "etic",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "qual",
+      "type": "SEGMENT",
+      "items": [
+        {
+          "id": 20,
+          "sampleStart": 0,
+          "sampleDur": 8471,
+          "labels": [
+            {
+              "name": "qual",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "sampleStart": 8472,
+          "sampleDur": 1444,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "sampleStart": 9917,
+          "sampleDur": 1354,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "sampleStart": 11272,
+          "sampleDur": 667,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "~"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "sampleStart": 11940,
+          "sampleDur": 2671,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "sampleStart": 14612,
+          "sampleDur": 810,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "~"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "sampleStart": 15423,
+          "sampleDur": 1526,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "sampleStart": 16950,
+          "sampleDur": 5049,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "sampleStart": 22000,
+          "sampleDur": 10999,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "sampleStart": 33000,
+          "sampleDur": 2487,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "sampleStart": 35488,
+          "sampleDur": 2289,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "sampleStart": 37778,
+          "sampleDur": 905,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "~"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "sampleStart": 38684,
+          "sampleDur": 954,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "+"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "sampleStart": 39639,
+          "sampleDur": 714,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "~"
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "sampleStart": 40354,
+          "sampleDur": 3645,
+          "labels": [
+            {
+              "name": "qual",
+              "value": "_"
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "sampleStart": 44000,
+          "sampleDur": 22045,
+          "labels": [
+            {
+              "name": "qual",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "utt",
+      "type": "ITEM",
+      "items": []
+    },
+    {
+      "name": "word",
+      "type": "ITEM",
+      "items": []
+    },
+    {
+      "name": "morph",
+      "type": "ITEM",
+      "items": []
+    },
+    {
+      "name": "emic",
+      "type": "ITEM",
+      "items": []
+    },
+    {
+      "name": "broad",
+      "type": "ITEM",
+      "items": []
+    }
+  ],
+  "links": []
+}

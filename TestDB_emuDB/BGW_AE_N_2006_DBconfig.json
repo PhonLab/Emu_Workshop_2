@@ -1,0 +1,668 @@
+{
+  "name": "BGW_AE_N_2006",
+  "UUID": "9b310f50-7e4d-4d51-a350-d9853f4c35da",
+  "mediafileExtension": "wav",
+  "ssffTrackDefinitions": [
+    {
+      "name": "F0",
+      "columnName": "F0",
+      "fileExtension": "f0"
+    },
+    {
+      "name": "FORMANTS",
+      "columnName": "fm",
+      "fileExtension": "fms"
+    },
+    {
+      "name": "Uo",
+      "columnName": "Uo",
+      "fileExtension": "uof"
+    },
+    {
+      "name": "Un",
+      "columnName": "Un",
+      "fileExtension": "unf"
+    }
+  ],
+  "levelDefinitions": [
+    {
+      "name": "utt",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "utt",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "word",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "word",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "morph",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "morph",
+          "type": "STRING",
+          "labelGroups": [
+            {
+              "name": "pre",
+              "values": [
+                "kun",
+                "man",
+                "ngal",
+                "na"
+              ]
+            },
+            {
+              "name": "nominal_incorp",
+              "values": [
+                "keb",
+                "bid"
+              ]
+            },
+            {
+              "name": "nominal",
+              "values": [
+                "kimuk",
+                "dulk",
+                "dalk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "emic",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "emic",
+          "type": "STRING",
+          "labelGroups": [
+            {
+              "name": "V",
+              "values": [
+                "a",
+                "e",
+                "i",
+                "o",
+                "u"
+              ]
+            },
+            {
+              "name": "C",
+              "values": [
+                "b",
+                "d",
+                "rd",
+                "dj",
+                "k",
+                "bb",
+                "dd",
+                "rrd",
+                "djdj",
+                "kk"
+              ]
+            },
+            {
+              "name": "L",
+              "values": [
+                "l",
+                "r",
+                "rr"
+              ]
+            },
+            {
+              "name": "N",
+              "values": [
+                "n",
+                "m",
+                "rn",
+                "nj",
+                "ng"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "broad",
+      "type": "ITEM",
+      "attributeDefinitions": [
+        {
+          "name": "broad",
+          "type": "STRING",
+          "labelGroups": [
+            {
+              "name": "vowel",
+              "values": [
+                "I",
+                "E",
+                "6",
+                "O",
+                "U",
+                "i",
+                "e",
+                "a",
+                "o",
+                "u",
+                "I:",
+                "E:",
+                "6:",
+                "O:",
+                "U:",
+                "@",
+                "IK",
+                "EK",
+                "6K",
+                "UK",
+                "OK",
+                "iK",
+                "eK",
+                "aK",
+                "oK",
+                "uK",
+                "I0",
+                "E0",
+                "U0",
+                "60",
+                "O0",
+                "It",
+                "Et",
+                "6t",
+                "Ut",
+                "Ot"
+              ]
+            },
+            {
+              "name": "Tostop",
+              "values": [
+                "p:",
+                "t:",
+                "t`:",
+                "c:",
+                "k:"
+              ]
+            },
+            {
+              "name": "Lostop",
+              "values": [
+                "b",
+                "p",
+                "B",
+                "d",
+                "t",
+                "d`",
+                "c",
+                "g",
+                "k",
+                "G",
+                "D",
+                "ko"
+              ]
+            },
+            {
+              "name": "ostop",
+              "values": [
+                "p:",
+                "t:",
+                "d`:",
+                "c:",
+                "k:",
+                "b",
+                "d",
+                "d`",
+                "c",
+                "J",
+                "k",
+                "D"
+              ]
+            },
+            {
+              "name": "nstop",
+              "values": [
+                "n",
+                "m",
+                "n`",
+                "J",
+                "N",
+                "nK",
+                "mK",
+                "NK",
+                "n0",
+                "m0",
+                "N0",
+                "n:"
+              ]
+            },
+            {
+              "name": "liquid",
+              "values": [
+                "l",
+                "r",
+                "r`",
+                "4",
+                "j",
+                "jK"
+              ]
+            },
+            {
+              "name": "retro",
+              "values": [
+                "t`",
+                "t:`",
+                "d`",
+                "n`",
+                "l`",
+                "r`"
+              ]
+            },
+            {
+              "name": "trans",
+              "values": [
+                "t1",
+                "t2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "etic",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "etic",
+          "type": "STRING",
+          "labelGroups": [
+            {
+              "name": "vowel",
+              "values": [
+                "I",
+                "E",
+                "6",
+                "O",
+                "U",
+                "i",
+                "e",
+                "a",
+                "o",
+                "u",
+                "I:",
+                "E:",
+                "6:",
+                "O:",
+                "U:",
+                "@",
+                "6`",
+                "O`",
+                "E`"
+              ]
+            },
+            {
+              "name": "Tostop",
+              "values": [
+                "p:",
+                "b:",
+                "t:",
+                "t`:",
+                "c:",
+                "k:"
+              ]
+            },
+            {
+              "name": "Lostop",
+              "values": [
+                "b",
+                "p",
+                "B",
+                "d",
+                "t",
+                "d`",
+                "t`",
+                "c",
+                "g",
+                "k",
+                "G",
+                "D",
+                "JP"
+              ]
+            },
+            {
+              "name": "ostop",
+              "values": [
+                "p:",
+                "b:",
+                "t:",
+                "t`:",
+                "c:",
+                "k:",
+                "b",
+                "p",
+                "B",
+                "d",
+                "t",
+                "d`",
+                "t`",
+                "c",
+                "J",
+                "g",
+                "k",
+                "G",
+                "D",
+                "JP"
+              ]
+            },
+            {
+              "name": "nstop",
+              "values": [
+                "n",
+                "m",
+                "n`",
+                "J",
+                "N",
+                "nK",
+                "mK",
+                "n`K",
+                "NK",
+                "n:"
+              ]
+            },
+            {
+              "name": "liquid",
+              "values": [
+                "l",
+                "r",
+                "r`",
+                "4",
+                "j",
+                "jK"
+              ]
+            },
+            {
+              "name": "retro",
+              "values": [
+                "t`",
+                "t:`",
+                "d`",
+                "n`",
+                "l`",
+                "r`"
+              ]
+            },
+            {
+              "name": "asp",
+              "values": [
+                "H",
+                "_7",
+                "_>",
+                "7"
+              ]
+            },
+            {
+              "name": "diacrit",
+              "values": [
+                "_k",
+                "_w",
+                "_0",
+                "_j",
+                "_h",
+                "_>",
+                "K",
+                "0"
+              ]
+            },
+            {
+              "name": "trans",
+              "values": [
+                "t1",
+                "t2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "qual",
+      "type": "SEGMENT",
+      "attributeDefinitions": [
+        {
+          "name": "qual",
+          "type": "STRING"
+        }
+      ]
+    }
+  ],
+  "linkDefinitions": [
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "utt",
+      "sublevelName": "word"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "word",
+      "sublevelName": "morph"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "morph",
+      "sublevelName": "emic"
+    },
+    {
+      "type": "ONE_TO_MANY",
+      "superlevelName": "emic",
+      "sublevelName": "broad"
+    },
+    {
+      "type": "MANY_TO_MANY",
+      "superlevelName": "broad",
+      "sublevelName": "etic"
+    },
+    {
+      "type": "MANY_TO_MANY",
+      "superlevelName": "etic",
+      "sublevelName": "qual"
+    }
+  ],
+  "EMUwebAppConfig": {
+    "perspectives": [
+      {
+        "name": "default",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC"
+          ],
+          "assign": [
+            {
+              "signalCanvasName": "SPEC",
+              "ssffTrackName": "FORMANTS"
+            }
+          ],
+          "contourLims": [
+            {
+              "ssffTrackName": "FORMANTS",
+              "minContourIdx": 0,
+              "maxContourIdx": 2
+            }
+          ],
+          "contourColors": [
+            {
+              "ssffTrackName": "FORMANTS",
+              "colors": [
+                "rgb(17,87,209)",
+                "rgb(209,139,17)",
+                "rgb(209,17,183)"
+              ]
+            }
+          ]
+        },
+        "levelCanvases": {
+          "order": [
+            "etic",
+            "qual"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      },
+      {
+        "name": "Aerodynamic",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC",
+            "F0",
+            "Un",
+            "Uo"
+          ],
+          "assign": [
+          ],
+      "contourLims": [
+            {
+              "ssffTrackName": "Un",
+              "minContourIdx": 0,
+              "maxContourIdx": 1
+            },
+            {
+              "ssffTrackName": "Uo",
+              "minContourIdx": 0,
+              "maxContourIdx": 1
+            }
+          ],
+       "contourColors": [
+            {
+              "ssffTrackName": "Un",
+              "colors": ["rgb(24,198,90)"
+              ]
+            },
+                        {
+              "ssffTrackName": "Uo",
+              "colors": [
+                "rgb(244,18,0)"
+              ]
+            }
+          ],
+          "minMaxValLims": [
+            {
+              "ssffTrackName": "Uo",
+              "minVal": 0,
+              "maxVal": 15000
+            },
+            {
+              "ssffTrackName": "Un",
+              "minVal": 0,
+              "maxVal": 15000
+            }
+          ]
+        },
+        "levelCanvases": {
+          "order": [
+            "etic",
+            "qual"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      },
+            {
+        "name": "AerodynamicMAX",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC",
+            "Un",
+            "Uo"
+          ],
+          "assign": [
+            {
+              "signalCanvasName": "SPEC",
+              "ssffTrackName": "FORMANTS"
+            }
+          ],
+          "minMaxValLims": [
+            {
+              "ssffTrackName": "Uo",
+              "minVal": -10000,
+              "maxVal": 10000
+            },
+            {
+              "ssffTrackName": "Un",
+              "minVal": -10000,
+              "maxVal": 10000
+            }
+          ],
+          "contourLims": [
+            {
+              "ssffTrackName": "Uo",
+              "minContourIdx": 0,
+              "maxContourIdx": 1
+            },
+            {
+              "ssffTrackName": "Un",
+              "minContourIdx": 0,
+              "maxContourIdx": 1
+            }
+          ]
+        },
+          "contourColors": [
+            {
+              "ssffTrackName": "FORMANTS",
+              "colors": [
+                "rgb(17,87,209)",
+                "rgb(209,139,17)",
+                "rgb(209,17,183)"
+              ]
+            },
+            {
+              "ssffTrackName": "Un",
+              "colors": [
+                "rgb(24,198,90)"
+              ]
+            },
+                        {
+              "ssffTrackName": "Uo",
+              "colors": [
+                "rgb(244,18,0)"
+              ]
+            }
+          ],
+        "levelCanvases": {
+          "order": [
+            "etic",
+            "qual"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      }
+    ],
+    "restrictions": {
+      "showPerspectivesSidebar": true
+    },
+    "activeButtons": {
+      "saveBundle": true,
+      "showHierarchy": true,
+      "downloadTextGrid": true,
+      "downloadAnnotation": true,
+      "editEMUwebAppConfig": true
+    }
+  }
+}
