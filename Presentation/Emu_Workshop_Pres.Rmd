@@ -1,0 +1,69 @@
+---
+title: "Emu Workshop 2"
+author: "Hywel Stoakes"
+date: "08/09/2017"
+output: ioslides_presentation
+logo: logo.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Opening Existing Databases
+
+```{r eval=FALSE, include=TRUE}
+load_emuDB()
+```
+
+
+## Adding Derived Signal files to the Database
+
+```{r eval=FALSE, include=TRUE}
+add_ssffTrackDefinition()
+```
+
+## Setting the canvas order
+```{r}
+#
+```
+
+## Adding tiers to a Database
+
+```{r eval=FALSE, include=TRUE}
+#
+#
+```
+
+
+## Converting existing databases
+
+```{r pressure}
+plot(pressure)
+```
+
+## Creating New Databases
+
+```{r}
+#
+```
+
+## Wishlist of Features 
+ in the Labeller and within Emu R
+```{r}
+#
+```
+
+## Workshopping Specific Questions with existing Data
+
+* Are there any questions?
+
+## Introduction to Tidy Data
+
+* Why do things this way?
+* For reproducable workflows
+
+## Visulisation and Statistics
+
+* Most of this will have to be for another workshop
+

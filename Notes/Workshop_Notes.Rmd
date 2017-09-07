@@ -1,0 +1,13 @@
+---
+title: "Emu Workshop"
+output: html_notebook
+---
+
+# Introduction 
+We can add the information added here to the wiki on the Organisation site.
+
+```{r message=FALSE, warning=FALSE}
+library("emuR")
+```
+
+
