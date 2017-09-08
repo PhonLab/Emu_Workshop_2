@@ -16,61 +16,25 @@ add_ssffTrackDefinition(emuDBhandle = test_DB, name = "F0", onTheFlyFunctionName
 # reload database
 #BGW_AE_S_2007 <- load.emuDB(databasepath, verbose = TRUE)
 # purge_emuDB(dbName = "BGW_AE_N_2006")
+list_perspectives(test_DB)
+# remove_perspective(emuDBhandle = test_DB,
+# 									 name = "Pitch")
 
-test_DB <- load_emuDB(file.path(databasepath), verbose = TRUE)
-summary(test_DB)
+add_perspective(emuDBhandle = test_DB,
+								name = "Pitch")
+
+set_signalCanvasesOrder(emuDBhandle = test_DB,
+												perspectiveName = "Pitch",
+												order = c("OSCI","SPEC","F0"))
+
+set_levelCanvasesOrder(emuDBhandle = test_DB,
+											 perspectiveName = "Pitch",
+											 order = c("etic"))
+
 serve(emuDBhandle = test_DB)
 
-# file.edit("~/Dropbox/Projects/Emu_Workshop_2/TestDB_emuDB/BGW_AE_S_2006_DBconfig.json") # Change the fm to FORMANTS and add in some of the Emuconfig options
-# file.edit("~~/Dropbox/Projects/Emu_Workshop_2/TestDB_emuDB/BGW_AE_S_2006_DBconfig.json") # Change the fm to FORMANTS and add in some of the Emuconfig options
+# serve(emuDBhandle = test_DB, autoOpenURL = NULL)
 
-file.edit("~/Dropbox/Projects/Emu_Workshop_2/TestDB_emuDB/BGW_AE_N_2006_DBconfig.json")
+# test_DB <- load_emuDB(file.path(databasepath), verbose = TRUE)
+# summary(test_DB)
 
-#### In the *._DBconfig.json file that opens for editing, change the following lines #####
-#### @ line 11
-# {
-#   "name": "FORMANTS",
-#   "columnName": "fm",
-#   "fileExtension": "fms"
-# },
-
-
-## @ line 481
-
-# "EMUwebAppConfig": {
-#   "perspectives": [
-#     {
-#       "name": "default",
-#       "signalCanvases": {
-#         "order": [
-#           "OSCI",
-#           "SPEC"
-#           ],
-#         "assign": [
-#           {
-#             "signalCanvasName": "SPEC",
-#             "ssffTrackName": "FORMANTS"
-#           }
-#           ],
-#         "contourLims": [
-#           {
-#             "ssffTrackName": "FORMANTS",
-#             "minContourIdx": 0,
-#             "maxContourIdx": 2
-#           }
-#           ],
-#         "contourColors": [{
-#           "ssffTrackName": "FORMANTS",
-#           "colors": ["rgb(17,87,209)", "rgb(209,139,17)", "rgb(209,17,183)"]
-#         }]
-#       },
-#       "levelCanvases": {
-#         "order": [
-#           "etic",
-#           "qual"
-#           ]
-#       },
-#       "twoDimCanvases": {
-#         "order": []
-#       }
-#     },
