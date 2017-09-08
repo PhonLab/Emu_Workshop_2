@@ -1,7 +1,12 @@
 #### HS 20170908
 require(emuR)
-test_DB <- load_emuDB(paste0(databasepath,"_emuDB"), verbose = TRUE)
+
 databasepath = "~/Dropbox/Projects/Emu_Workshop_2/TestDB_emuDB"
+
+test_DB <- load_emuDB(paste0(databasepath), verbose = TRUE)
+
+list_ssffTrackDefinitions(test_DB)
+
 add_ssffTrackDefinition(emuDBhandle = test_DB, name = "FORMANTS", columnName = "fm",fileExtension = "fms")
 
 # reload database

@@ -4,11 +4,6 @@
   "mediafileExtension": "wav",
   "ssffTrackDefinitions": [
     {
-      "name": "F0",
-      "columnName": "F0",
-      "fileExtension": "f0"
-    },
-    {
       "name": "FORMANTS",
       "columnName": "fm",
       "fileExtension": "fms"
@@ -22,6 +17,11 @@
       "name": "Un",
       "columnName": "Un",
       "fileExtension": "unf"
+    },
+    {
+      "name": "F0",
+      "columnName": "F0",
+      "fileExtension": "f0"
     }
   ],
   "levelDefinitions": [
@@ -531,9 +531,8 @@
             "Un",
             "Uo"
           ],
-          "assign": [
-          ],
-      "contourLims": [
+          "assign": [],
+          "contourLims": [
             {
               "ssffTrackName": "Un",
               "minContourIdx": 0,
@@ -545,13 +544,14 @@
               "maxContourIdx": 1
             }
           ],
-       "contourColors": [
+          "contourColors": [
             {
               "ssffTrackName": "Un",
-              "colors": ["rgb(24,198,90)"
+              "colors": [
+                "rgb(24,198,90)"
               ]
             },
-                        {
+            {
               "ssffTrackName": "Uo",
               "colors": [
                 "rgb(244,18,0)"
@@ -581,7 +581,7 @@
           "order": []
         }
       },
-            {
+      {
         "name": "AerodynamicMAX",
         "signalCanvases": {
           "order": [
@@ -621,32 +621,52 @@
             }
           ]
         },
-          "contourColors": [
-            {
-              "ssffTrackName": "FORMANTS",
-              "colors": [
-                "rgb(17,87,209)",
-                "rgb(209,139,17)",
-                "rgb(209,17,183)"
-              ]
-            },
-            {
-              "ssffTrackName": "Un",
-              "colors": [
-                "rgb(24,198,90)"
-              ]
-            },
-                        {
-              "ssffTrackName": "Uo",
-              "colors": [
-                "rgb(244,18,0)"
-              ]
-            }
-          ],
+        "contourColors": [
+          {
+            "ssffTrackName": "FORMANTS",
+            "colors": [
+              "rgb(17,87,209)",
+              "rgb(209,139,17)",
+              "rgb(209,17,183)"
+            ]
+          },
+          {
+            "ssffTrackName": "Un",
+            "colors": [
+              "rgb(24,198,90)"
+            ]
+          },
+          {
+            "ssffTrackName": "Uo",
+            "colors": [
+              "rgb(244,18,0)"
+            ]
+          }
+        ],
         "levelCanvases": {
           "order": [
             "etic",
             "qual"
+          ]
+        },
+        "twoDimCanvases": {
+          "order": []
+        }
+      },
+      {
+        "name": "Pitch",
+        "signalCanvases": {
+          "order": [
+            "OSCI",
+            "SPEC",
+            "F0"
+          ],
+          "assign": [],
+          "contourLims": []
+        },
+        "levelCanvases": {
+          "order": [
+            "etic"
           ]
         },
         "twoDimCanvases": {
