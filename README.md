@@ -1,5 +1,8 @@
 # Emu Workshop 2
 
+- The Wiki is the place to find information from this workshop [link to workshop wiki](https://github.com/PhonLab/Emu_Workshop_2/wiki)
+- This information will be copied into the main wiki so you can access it there. [link to main wiki](https://github.com/PhonLab/PhonLab.github.io/wiki) which is also a website.
+
 This is the second workshop looking at the Emu SDMS and its itegration with R through the [EmuR](https://github.com/IPS-LMU/emuR) package. Prerequisites are a working installation of [R](https://mirror.aarnet.edu.au/pub/CRAN/), [Rstudio](https://www.rstudio.com/products/rstudio/download/) and installation of the EmuR package from CRAN using:
 
 ```
